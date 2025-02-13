@@ -7,6 +7,7 @@
     font-weight: 400px;
     font-style: normal;
     margin: 60px 60px 60px 60px;
+    background-color: #FFFFFF;
   }
   .display-flex{
     display: flex;
@@ -105,11 +106,17 @@ width: 582px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 80px;
+ padding: 10px;
+
 }
 
 
 .image-container{
 
+  background-color: #FFFFFF;
+ margin: 10px;
+ margin-right: 50px;
+ border-radius: 10px;
 }
 
 .text-title{
@@ -256,7 +263,7 @@ flex-direction: column-reverse
 } 
 
 .influencer{
-  width: 120%;
+  width: 100%;
 }
 
 
