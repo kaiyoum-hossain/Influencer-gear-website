@@ -158,8 +158,43 @@ width: 582px;
 
 /* footer styles */
 
+.influencer{
+  background-color: #161515;
+  height: 180px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.title{
+margin-top: 40px;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+.title-1{
+  margin-top: 10px;
+  color: #D9DBE1;
+ text-align: center;
+ margin-top: -10px;
+}
+.title-2{
+  color: #D9DBE1;
+  text-align: center;
+  margin-top: -10px;
+}
 
 
+/* icons style  */
 
 
-
+.fa-facebook, .fa-youtube, .fa-twitter, .fa-instagram{
+  color: #FFFFFF;
+display: flex;
+justify-content: center;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
