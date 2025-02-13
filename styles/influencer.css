@@ -11,12 +11,14 @@
   .display-flex{
     display: flex;
 }
-/* .section-title{
-  font-size: 2.8rem;
-  font-weight: 700;
-} */
+.hide{
+display: none;
+}
 /* shared styles */
+
 .navbar{
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -134,6 +136,7 @@ width: 582px;
 
 #section-product{
   display: flex;
+  flex-direction: row;
  gap: 70px;
 }
 
@@ -198,3 +201,71 @@ justify-content: center;
   justify-content: center;
   gap: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+/* responsive media quary */
+ 
+
+@media screen and (max-width:576px){
+  .images{
+    size: 20px;
+  }
+
+.navbar{
+flex-direction: column;
+}
+.nav-links{
+  flex-direction: column;
+}
+.bannar-start{
+  font-size: 2.75rem;
+ margin-right: 120px;
+}
+.bannar-lorem{
+  font-size: 24px;
+
+}
+.section-title{
+  flex-direction: column-reverse;
+  margin: 0 auto;
+}
+.images-company{
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.container{
+  padding: 10px;
+  grid-template-columns: repeat(1, 1fr);
+}
+#section-product{
+flex-direction: column-reverse
+}
+
+.products{
+ width: 150px;
+
+} 
+
+.influencer{
+  width: 120%;
+}
+
+
+
+
+
+}
+
+
+
+
+
